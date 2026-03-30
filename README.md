@@ -48,7 +48,7 @@ The dataset contains information such as:
 - Performance comparison
 
 ##  Tech Stack
-- Python 🐍
+- Python 
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
