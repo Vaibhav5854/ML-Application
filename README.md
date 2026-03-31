@@ -1,63 +1,48 @@
 # ML-Application
-Machine Learning project on Loan Approval Prediction including data cleaning, feature engineering, EDA, and model building.
+#  Machine Learning Projects 
 
-# Loan Approval Prediction (ML Project)
+This repository contains a collection of my Machine Learning projects where I have applied concepts of data analysis, feature engineering, and model building.
 
-##  Overview
-This project focuses on predicting loan approval status using Machine Learning techniques.  
-It covers the complete data science workflow from raw data to model building and evaluation.
+##  Projects Included
 
-##  Objective
-To build a predictive model that can determine whether a loan application will be approved or not based on applicant details.
+### 1. Loan Approval Prediction
+- Built a classification model to predict loan approval status.
+- Applied data cleaning, feature engineering, and EDA.
+- Implemented multiple ML models and compared performance.
 
-##  Dataset
-The dataset contains information such as:
-- Applicant Income
-- Coapplicant Income
-- Loan Amount
-- Loan Term
-- Credit History
-- Gender, Education, Property Area, etc.
+**Key Skills:**
+- Data Cleaning
+- Feature Engineering
+- Classification Models
+- Model Evaluation (Accuracy, ROC Curve)
 
-## Workflow
+### 2. Algerian Forest Fire Prediction
+- Worked on environmental dataset to predict fire occurrence.
+- Performed EDA and handled missing values.
+- Built classification models to detect fire vs no-fire cases.
 
-### 1. Data Cleaning
-- Handling missing values
-- Removing inconsistencies
-- Data type corrections
+**Key Skills:**
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Handling Imbalanced Data
+- Classification
 
-### 2. Feature Engineering
-- Creating new features (e.g., Total Income)
-- Encoding categorical variables (Label Encoding / One Hot Encoding)
-- Feature scaling (if applied)
+### 3. Linear Regression (Simple & Multiple)
+- Implemented Linear Regression from scratch and using libraries.
+- Worked on both simple and multiple regression problems.
+- Evaluated model using regression metrics.
 
-### 3. Exploratory Data Analysis (EDA)
-- Correlation analysis
-- Distribution plots
-- Identifying patterns and trends
+**Key Skills:**
+- Regression Analysis
+- Mathematical Understanding of ML Models
+- Model Evaluation (R², MSE, MAE)
 
-### 4. Model Building
-- Applied Machine Learning algorithms such as:
-  - Logistic Regression
-  - Decision Tree
-  - Random Forest (optional)
+## Tech Stack
 
-### 5. Model Evaluation
-- Accuracy Score
-- Confusion Matrix
-- Performance comparison
-
-##  Tech Stack
 - Python 
-- Pandas
 - NumPy
+- Pandas
 - Matplotlib / Seaborn
 - Scikit-learn
 
-## Results
-The model was able to predict loan approval with good accuracy after proper data preprocessing and feature engineering.
 
-##  Future Improvements
-- Hyperparameter tuning
-- Deploying the model using Flask/Streamlit
-- Using advanced models 
